@@ -1,4 +1,4 @@
-from ventana import Ventana
+from .ventana import Ventana  # Usando importación absoluta
 
 class Cotizacion:
     def __init__(self):

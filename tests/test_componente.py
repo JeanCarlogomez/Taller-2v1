@@ -1,11 +1,9 @@
-import unittest
 from app.componente import Componente
 
-class TestComponente(unittest.TestCase):
-    def test_componente(self):
-        comp = Componente("Chapa", 16_200)
-        self.assertEqual(comp.tipo, "Chapa")
-        self.assertEqual(comp.costo, 16_200)
+def test_componente():
+    comp = Componente("Chapa", 16_200)
+    assert comp.tipo == "Chapa", "El tipo debe ser 'Chapa'"
+    assert comp.costo == 16_200, "El costo debe ser 16,200"
 
-if __name__ == '__main__':
-    unittest.main()
+test_componente()
+print("Prueba de Componente: OK")

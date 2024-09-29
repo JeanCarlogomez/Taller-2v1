@@ -1,4 +1,4 @@
-from nave import Nave
+from .nave import Nave
 
 class Ventana:
     def __init__(self, estilo, ancho, alto, cantidad):
@@ -14,3 +14,6 @@ class Ventana:
 
     def calcular_costo(self):
         return sum(nave.calcular_costo_total() for nave in self.naves) * self.cantidad
+
+
+

@@ -1,4 +1,4 @@
-from componente import Componente
+from .componente import Componente
 
 class Nave:
     def __init__(self, tipo, ancho, alto, material, vidrio):
