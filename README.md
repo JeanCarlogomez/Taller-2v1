@@ -1,4 +1,4 @@
-# Sistema de Gestión de Inventarios
+# Sistema de Cotización de Ventanas - PQR
 
 ## Descripción
 Este proyecto desarrolla un sistema para la empresa PQR, dedicada a la fabricación de ventanas de aluminio. El objetivo del sistema es mejorar el proceso manual de cotización de ventanas, proporcionando una herramienta automatizada que permita calcular el precio de ventanas basadas en sus dimensiones, el tipo de aluminio utilizado, el tipo de vidrio, y otros elementos adicionales como las chapas y las esquinas.
@@ -29,7 +29,7 @@ Versionamiento: Git y GitHub
 
 1. **Clonar el repositorio**:
     Git Bash
-   git clone https://github.com/JeanCarlogomez/Taller-2v1.git
+   git clone 
 
 2. **Crear y activar un entorno virtual**: 
     py -m venv venv
