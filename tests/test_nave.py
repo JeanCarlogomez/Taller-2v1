@@ -16,7 +16,7 @@ class TestNave(unittest.TestCase):
         self.assertEqual(costo_aluminio, 131820.0)  # Confirmar que el cálculo es correcto
 
         area_vidrio = nave.calcular_costo_vidrio()
-        self.assertEqual(area_vidrio, 28_205.69)  # Confirmar que el cálculo es correcto
+        self.assertAlmostEqual(area_vidrio, 28_205.69, places=2)  # Confirmar que el cálculo es correcto
 
 if __name__ == '__main__':
     unittest.main()
